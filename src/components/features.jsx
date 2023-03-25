@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import '@styles/features.css';
-import db_icon from '@assets/db.svg';
-import globe_icon from '@assets/globe_icon.svg';
-import gsap, { Power1 } from 'gsap';
+import gsap from 'gsap';
 
 const featuresData = [
     {
