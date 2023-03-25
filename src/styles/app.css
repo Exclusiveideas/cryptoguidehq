@@ -1,0 +1,9 @@
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}

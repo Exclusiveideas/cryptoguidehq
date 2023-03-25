@@ -1,0 +1,19 @@
+.footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.3);
+}
+
+.copyright_icon {
+    transform: scale(0.7);
+}
+
+
+@media screen and (max-width: 425px) {
+    .footer {
+        height: 10vh;
+    }
+}

@@ -1,0 +1,39 @@
+.four04_page {
+    height: calc(90vh - 60px);
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 60px;
+    position: relative;
+}
+
+.oops_text {
+    position: absolute;
+    font-size: 3rem;
+    top: 0;
+    color: gray;
+}
+
+.four04_img {
+    height: 90%;
+    aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 500px) {
+    .four04_page {
+        height: calc(100vh - 60px - 15vh);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .four04_page {
+        height: calc(100vh - 60px - 10vh);
+    }
+
+    .oops_text {
+        top: 5rem;
+    }
+}

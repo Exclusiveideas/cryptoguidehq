@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #0071F2;
+  --primary-color-dark: #1d5ea8;
+  --gray-text-color: #807D7D;
+  --graph-change-negative: rgba(254, 4, 4, 0.25);
+  --graph-change-positive: rgba(24, 225, 81, 0.15);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,175 @@
+.navbar {
+    width: 100vw;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+}
+
+.logo_section {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    transform: scale(0.65);
+}
+
+.menu_section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: .5rem;
+    gap: 2rem;
+}
+
+.open_menu {
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.menu_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_text p {
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu_text > .active > .underline {
+    width: 100%;
+}
+
+.menu_text .underline {
+    border: none;
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width .2s linear;
+}
+
+.menu_text:hover .underline {
+    width: 100%;
+}
+
+.navbar_cta {
+    width: 90px;
+    height: 35px;
+    background-color: var(--primary-color);
+    padding: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar_cta p {
+    color: white;
+    font-size: 14px;
+}
+
+.browse_txt {
+    position: absolute;
+    top: 20%;
+    opacity: 1;
+}
+
+.browse_icon {
+    transform: scale(0.7);
+    position: absolute;
+    top: 100%;
+    letter-spacing: 50%;
+    opacity: 0;
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 0 1.5rem;
+    }
+
+    .menu_text p {
+        font-size: 14px;
+    }
+
+    .navbar_cta {
+        width: 80px;
+        padding: .5rem;
+    }
+
+    .navbar_cta p {
+        color: white;
+        font-size: 13px;
+    }
+
+    .browse_icon {
+        transform: scale(0.63);
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        padding: 0 1.2rem;
+    }
+
+
+    .logo {
+        transform: scale(0.55);
+    }
+
+    .open_menu {
+        display: flex;
+    }
+
+    .menu_text {
+        display: none;
+    }
+
+    .navbar_cta {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        height: 40px;
+    }
+
+    .logo {
+        transform: scale(0.45);
+    }
+
+}

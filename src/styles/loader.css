@@ -1,0 +1,8 @@
+.loader_wrapper {
+    height: calc(100vh - 40px - 10vh);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
