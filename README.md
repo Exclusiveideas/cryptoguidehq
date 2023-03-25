@@ -1,4 +1,4 @@
-# CryptoVerse
+# CryptoGuideHQ
 ![crypto](https://firebasestorage.googleapis.com/v0/b/cryptoguidehq.appspot.com/o/cryptoguidehq1.png?alt=media)
 ![crypto](https://firebasestorage.googleapis.com/v0/b/cryptoguidehq.appspot.com/o/cryptoguidehq2.png?alt=media)
 ![crypto](https://firebasestorage.googleapis.com/v0/b/cryptoguidehq.appspot.com/o/cryptoguidehq3.png?alt=media)
